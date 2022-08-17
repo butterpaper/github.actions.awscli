@@ -28,11 +28,11 @@ which we can do as below:
 - name: AWS CLI v2
   uses: butterpaper/github.actions.awscli@latest
   with:
-      args: s3 ls
+    args: s3 ls
   env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      AWS_DEFAULT_REGION: "ap-south-1"
+    AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+    AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    AWS_DEFAULT_REGION: "ap-south-1"
 ```
 
 ###Materials for curious minds
